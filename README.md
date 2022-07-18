@@ -28,9 +28,23 @@ To ease the writing Facebook designed a language JSX allowig to generate JavaScr
 
 ### Notes
 
+#### History
 
+React Native is a framework developped by Facebook to make iOS and Android applications using React
+
+Developped in 2015
+
+#### Differences with React JS
+
+React Native does not use HTML nor CSS, it uses JavaScript's thread messages to manipulate the views
+
+React native does not manipulate the DOM, the DOM is running in the background on the terminal and communicates with the platform via serialized data over an asynchronous and batched bridge
 
 #### Links
-- wikipedia (for the history) : 
+- wikipedia (for the history) : https://fr.wikipedia.org/wiki/React_Native
 - React Native official website : https://reactnative.dev/
-- tutorial to create a simple mobile app : https://www.youtube.com/watch?v=VozPNrt-LfE
+- Tutorial to create a simple app : https://www.youtube.com/watch?v=0d98aT6RAF4
+
+### Other research :
+
+- communicate with a Nest back-end : https://blog.logrocket.com/full-stack-app-tutorial-nestjs-react/?ref=morioh.com&utm_source=morioh.com#setting-up-the-mongodb-database
